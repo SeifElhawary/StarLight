@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import Slider from "./components/slider";
+import Slider from "./components/Slider";
 import About from "./components/About";
 import Products from "./components/Products";
 import Work from "./components/Work";
