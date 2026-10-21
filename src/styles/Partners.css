@@ -1,0 +1,39 @@
+.Partners {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 100% !important;
+}
+
+.Partners .splide__track,
+.Partners .splide__list {
+    height: 80px !important;
+    align-items: center;
+}
+
+.Partners .splide__slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    background-color: #111;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.partner-box img {
+    max-width: 100%;
+    max-height: 40px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.partner-box img:hover {
+    opacity: 0.7;
+}

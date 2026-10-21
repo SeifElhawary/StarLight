@@ -1,0 +1,99 @@
+#OurTeam {
+    padding: 50px 20px;
+    background-color: #0b0e14;
+    text-align: center;
+}
+
+#OurTeam .Title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#OurTeam .Title span {
+    color: var(--mainColor, #00ffcc);
+}
+
+
+#OurTeam .splide__track,
+#OurTeam .splide__list {
+    height: 400px !important;
+}
+
+#OurTeam .splide__slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121824;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    height: 330px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.tt:hover {
+    transform: translateY(-5px);
+}
+
+.tt img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid var(--mainColor, #00ffcc);
+}
+
+.tt h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tt span {
+    color: var(--mainColor, #00ffcc);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.tt p {
+    color: #a0aec0;
+    font-size: 13px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    background-color: #1a2233;
+    color: var(--mainColor, #00ffcc);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--mainColor, #00ffcc);
+    color: #0b0e14;
+    transform: scale(1.1);
+}

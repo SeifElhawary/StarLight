@@ -1,0 +1,20 @@
+.Slider-wrapper {
+    display: block !important;
+    width: 100% !important;
+    min-height: 60px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    
+}
+
+.Slider-wrapper .splide__slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(0, 210, 128) !important;
+    height: 55px !important;
+    color: rgb(12, 12, 12) !important;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 888 !important;
+}
