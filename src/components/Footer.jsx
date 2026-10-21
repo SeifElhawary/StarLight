@@ -23,7 +23,7 @@ function Footer() {
             </div>
 
             <div className="footer-bottom">
-                <p>&copy; 2026 NoxStar. All rights reserved.</p>
+                <p>&copy; 2026 STARLIGHT. All rights reserved.</p>
             </div>
         </footer>
     );
